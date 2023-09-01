@@ -25,4 +25,4 @@ jobs:
       # - name: Test using hatching
       #   run: hatch run test
       - name: Lint using hatching
-        run: hatch -e lint run lint
+        run: hatch -e lint run all
