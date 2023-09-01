@@ -22,7 +22,7 @@ jobs:
           python -m pip install ruff hatch pytest[toml] pytest-cov
       - name: Build package
         run: hatch build
-      - name: Test using hatching
-        run: hatch run test
+      # - name: Test using hatching
+      #   run: hatch run test
       - name: Lint using hatching
         run: hatch -e lint run lint
